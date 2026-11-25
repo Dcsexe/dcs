@@ -170,14 +170,14 @@
         
         <div class="server-info">
             <h2>📡 Информация о сервере:</h2>
-            <p><strong>Название:</strong> Indiana GMod Server</p>
+            <p><strong>Название:</strong> Luxury GMod Server</p>
             <p><strong>Игра:</strong> Garry's Mod</p>
-            <p><strong>Карта:</strong> indianabangclaw</p>
+            <p><strong>Карта:</strong> luxuryrpbangclaw</p>
             <p><strong>Игроки:</strong> 32/128</p>
         </div>
         
         <h2>IP-адрес сервера:</h2>
-        <div class="ip-address" id="ipText">212.22.85.158:27015</div>
+        <div class="ip-address" id="ipText">185.9.145.113:20542</div>
         <div>
             <button class="copy-btn" onclick="copyIP()">📋 Копировать IP</button>
         </div>
@@ -194,13 +194,13 @@
                 <li>Если автоматическое подключение не сработало:</li>
                 <li>Запустите Garry's Mod</li>
                 <li>Нажмите <kbd>~</kbd> (тильда) чтобы открыть консоль</li>
-                <li>Введите команду: <code>connect 212.22.85.158:27015</code></li>
+                <li>Введите команду: <code>connect 185.9.145.113:20542</code></li>
                 <li>Нажмите Enter для подключения</li>
             </ol>
         </div>
         
         <div class="footer">
-            <p>© 2024 Indiana GMod Server | Страница автоматического подключения</p>
+            <p>© 2025 Luxury GMod Server | Страница автоматического подключения</p>
             <p>Убедитесь, что у вас установлены Steam и Garry's Mod</p>
         </div>
     </div>
@@ -208,17 +208,17 @@
     <script>
         // Автоматическое перенаправление при загрузке
         setTimeout(function() {
-            window.location.href = "steam://connect/212.22.85.158:27015";
+            window.location.href = "steam://connect/185.9.145.113:20542";
         }, 1500);
         
         function connectToServer() {
             // Попытка открыть через Steam
-            window.location.href = "steam://connect/212.22.85.158:27015";
+            window.location.href = "steam://connect/185.9.145.113:20542";
             
             // Резервное уведомление
             setTimeout(function() {
                 if (!document.hidden) {
-                    alert("Если GMod не открылся:\n\n1. Убедитесь, что Steam запущен\n2. Скопируй команду в консоль GMod:\n\nconnect 212.22.85.158:27015");
+                    alert("Если GMod не открылся:\n\n1. Убедитесь, что Steam запущен\n2. Скопируй команду в консоль GMod:\n\nconnect 185.9.145.113:20542");
                 }
             }, 2000);
         }
